@@ -1,0 +1,14 @@
+Put the contents of this zip on a URL of your choice. Then use one of the following embed codes, replacing {{URL}} with your real url and – if necessary – updating the height and width.
+
+1. Use the included flourish.embed.js file to embed (recommended; best for responsive). Target a container div where you want the visualisation to appear using the data-src attribute, as follows: 
+<div class="flourish-embed" data-src="{{URL}}"></div>
+<script src="flourish.embed.js"></script>
+
+You only need to include the script once in your HTML page, even if you have multiple visualisations displayed (though there is no harm in including it multiple times; it will only run once). 
+
+2. Simple iframe embed (best if your CMS blocks scripts): 
+<iframe src="{{URL}}"></iframe><div><a href="https://flourish.studio/?utm_source=embed" target='_top'><img alt="Made with Flourish" src='https://public.flourish.studio/resources/made_with_flourish.svg"></a></div>
+
+3. You may not remove the Flourish credit unless you are an enterprise customer or have permission from Flourish HQ.
+
+
