@@ -7,8 +7,8 @@ Put the contents of this zip on a URL of your choice. Then use one of the follow
 You only need to include the script once in your HTML page, even if you have multiple visualisations displayed (though there is no harm in including it multiple times; it will only run once). 
 
 2. Simple iframe embed (best if your CMS blocks scripts): 
-<iframe src="{{URL}}"></iframe><div><a href="https://flourish.studio/?utm_source=embed" target='_top'><img alt="Made with Flourish" src='https://public.flourish.studio/resources/made_with_flourish.svg"></a></div>
+<iframe scrolling="no" src="{{URL}}"></iframe><div><a href="https://flourish.studio/?utm_source=embed" target='_top'><img alt="Made with Flourish" src="https://public.flourish.studio/resources/made_with_flourish.svg"></a></div>
+
+Be sure to specify scrolling="no" to avoid problems on iOS.
 
 3. You may not remove the Flourish credit unless you are an enterprise customer or have permission from Flourish HQ.
-
-
