@@ -79,11 +79,22 @@ canvas {
 #intro {
   position: absolute;
   z-index: 2;
-  background: rgba(255, 255, 255, 0.5);
+  background-image: url(gvr-shows-3-sm.gif);
+  background-size: cover;
+  background-position: center center;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+#intro #shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .hide {
@@ -138,6 +149,16 @@ img {
   width: 100%;
   text-align: center;
   display: inline-block;
+}
+
+.spacer {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+.section .notice {
+  font-size: .85em;
+  font-style: italic;
 }
 
 h1 {
@@ -246,9 +267,12 @@ a {
   .landscape {
     display: inline-block;
   }
+  .landscape.spacer {
+    display: block;
+  }
   .portrait {
     display: none;
   }
 }
 
-/*# sourceMappingURL=style.css.map 
+/*# sourceMappingURL=style.css.map
